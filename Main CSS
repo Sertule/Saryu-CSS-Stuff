@@ -1,0 +1,752 @@
+@import url(https://minidiscordthemes.github.io/SettingsIcons/SettingsIcons.theme.css);
+
+/* Rounded Borders */
+.role_f9575e,
+.textarea_dde0a8,
+.scrollableContainer_d0696b,
+.inputDefault-3FGxgL,
+.searchBar_a46bef,
+.panels_a4d4d9,
+.wrapper_ef319f,
+.thin_c49869  
+.scrollbarGhostHairline_c858ce,
+.message_d5deea,
+.embedWrapper_b558d0,
+.audioControls_f316dd,
+.applicationInstallButton-taCWKH,
+.userPopout-2j1gM4,
+.container_f1c3d9,
+.messagesPopoutWrap_ac90a2,
+.browser_f542fc,
+.mention,
+.wrapper_d4fa29,
+.wrapper_d8bfb3,
+.contentWrapper_af5dbb,
+.navButton_af5dbb,
+.layout_e9f61e,
+.button_dd4f85,
+.searchBar_c6ee36,
+.container_effbe2,
+.searchBar_b56bbc,
+.button_dd4f85,
+.imageWrapper_d4597d,
+.mosaicItemNoJustify_e5c1dc   {
+  border-radius: 20px;
+}
+
+.spoilerContent_a3d0f7 {
+  border-radius: 20px;
+}
+
+.profileBadges_f89da9 {
+ background: var(--profile-body-background-color) !important; 
+ }
+
+/* Removes the Discord writing at the top */
+.wordmarkWindows_a934d8 svg {
+  display: none;
+}
+
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+  display: none;
+}
+
+/* Remove Nitro Gift Button from Typing Area in Jp Language */
+.button_dd4f85[aria-label="ギフトを贈る"] {
+  display: none;
+}
+
+/* Rounded Context Menu */
+.menu_d90b3d,
+.colorDefault-CDqZdO {
+  border-radius: px;
+}
+
+/* user context menu: add note */
+#user-context-note,
+/* notes */
+[class^=note_],
+/* notes header in profile panel */
+[class^=profilePanel_] [class^=userPanelOverlayBackground_] > div:has([data-text-variant="eyebrow"]):last-of-type,
+/* notes header in user popout */
+[class^=userPopout] [class^=section_]:has([class^=note_]),
+/* notes header in user profile modal*/
+[class^=userProfileModal] [class^=userInfoSection_] > h1:last-of-type,
+/* last divider before notes in profile panel */
+[class^=profilePanel_] [class^=userPanelOverlayBackground_] > [class^=divider_]:not(:has( [class^=divider_])) {
+  display: none !important;
+}
+
+/* Pop-out Animation For Emoji Menu */
+.menu_d90b3d,
+.emojiPicker_c6ee36,
+.browser_f542fc,
+.messagesPopoutWrap_ac90a2,
+.wrapper_d8cdac,
+.container_b56bbc,
+.container_cbd271,
+.container_f1c3d9,
+.userPopout-2j1gM4 {
+  animation: custom-menu-animation 250ms ease;
+  transform-origin: top;
+}
+
+@keyframes custom-menu-animation {
+  0% {
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.toolbar_fc4f04 .anchor_af404b:nth-last-child(1) {
+  display: none;
+}
+
+/* Removes Avatar Decorations */
+.avatarDecoration_c51b4e,
+.avatarDecoration_f9f2ca,
+.avatarDecoration_f9f2ca {
+  display: none; 
+}
+.avatarDecorationHint_f89da9 {
+border-radius:var(--guildroundness) !important;
+}
+/* Removes Avatar Decorations */
+
+
+/* Emoji Auto-Fill Animation */
+.base_bcc24e {
+  transition: all 0.5s;
+}
+
+.base_bcc24e:hover {
+  transition: all 0s;
+  transform: scale(1.02);
+}
+
+img.emote {
+  text-indent: 0;
+  white-space: nowrap;
+  width: auto;
+  position: relative;
+  top: 0.25ex;
+}
+
+
+/* Removes the "Wave to say hi" button */
+.welcomeCTAButtonOuter_f6dde0 {
+  display: none;
+}
+/* Re-round Spotify Status Images */
+.assetsLargeImageSpotify_c1d9fd {
+  border-radius: 8px;
+}
+
+/* Fixes Text Area Roundness */
+.channelTextArea_d0696b,
+.staticToolbar_de3e42 {
+  border-radius: 25px !important;
+  
+}
+
+/* Fixes Jump to Present Bar Roundness */
+.jumpToPresentBar_cf58b5  {
+  border-radius: 20px !important;
+  margin: -2px !important;
+  opacity:100%;
+}
+form.form_a7d72e::before {
+  display: none;
+}
+
+/* Changes the way embeds appear */
+.embedFull_b0068a  {
+  background-color: var(--background-secondary);
+  border: 2px solid var(--background-modifier-accent);
+}
+
+/* Removes GUILD Icon */
+.guildIconV2Container_ed9816,
+.rowGuildName_a6ae3c>div {
+  display: none;
+}
+
+.inviteToolbar_c2739c {
+  display: none;
+}
+
+/* Changes bolded message color */
+[class*=messageContent] :is(h1, h2, h3) {
+  color: hsl(0, 0%, 100%)
+}
+
+[class*=messageContent] strong {
+  color: hsl(0, 0%, 81%);
+}
+
+/* Removes Profile Effects */
+.profileEffects_f867f9 {
+  display: none;
+}
+
+/* Add danger colours to dangerous user actions */
+#user-context-close-dm, #user-context-remove-friend, #user-context-block, #user-context-timeout, #user-context-kick, #user-context-ban, #message-report, #message-delete, #message-unsuppress-embeds, #guild-context-invite-people, #guild-context-leave-guild, #guild-context-server-lockdown, #guild-header-popout-invite-people, #guild-header-popout-leave, #guild-header-popout-server-lockdown {color: var(--status-danger) }
+#user-context-close-dm:active, #user-context-remove-friend:active, #user-context-block:active, #user-context-timeout:active, #user-context-kick:active, #user-context-ban:active, #message-report:active, #message-delete:active, #message-unsuppress-embeds:active #guild-context-invite-people:active, #guild-context-leave-guild:active, #guild-context-server-lockdown:active, #guild-header-popout-invite-people:active, #guild-header-popout-leave:active, #guild-header-popout-server-lockdown:active {
+    background-color:var(--red-500)!important;
+    color: var(--white-500)!important;    
+}
+#user-context-close-dm[class*="focused_"], #user-context-remove-friend[class*="focused_"], #user-context-block[class*="focused_"], #user-context-timeout[class*="focused_"], #user-context-kick[class*="focused_"], #user-context-ban[class*="focused_"], #message-report[class*="focused_"], #message-delete[class*="focused_"], #message-unsuppress-embeds[class*="focused_"], #guild-context-invite-people[class*="focused_"], #guild-context-leave-guild[class*="focused_"], #guild-context-server-lockdown[class*="focused_"], #guild-header-popout-invite-people[class*="focused_"], #guild-header-popout-leave[class*="focused_"], guild-header-popout-server-lockdown[class*="focused_"] {
+    background-color: var(--button-danger-background)!important;
+    color: var(--white-500);   
+}
+
+/* Make jump to present/jump to original/mark as read bars smaller and hug the right */
+.newMessagesBar_cf58b5 {
+  width: fit-content;
+  margin-left: auto;
+}
+
+/* End make jump to present/jump to original/mark as read bars smaller and hug the right */
+
+/* edited text */
+.timestamp_f9f2ca:not(.timestampInline_f9f2ca, .timestampVisibleOnHover_f9f2ca) time::after {
+    content: " (" attr(aria-label) ")";
+    color: var(--text-muted);
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: lowercase;
+}
+.edited_f9f2ca:not(.message-translate-indicator) {
+    display: none;
+}
+
+.edited_f9f2ca:not(.message-translate-indicator) {
+  display: none;
+}
+
+/* Hides IN VOICE CALL BUTTON*/
+[class^=bar__]:has([class^=voiceChannelsIcon__]) {
+  display: none;
+}
+
+/* Changes the color of the channel list scrollbar */
+.theme-dark .container_ee69e0 .thin_eed6a8::-webkit-scrollbar {
+  width: 7px;
+  background-color: var(--scrollbar-thin-track);
+}
+
+/* Removes the Show All VC Button */
+.voiceChannelsButton_a08117 {
+  display: none;
+}
+
+/* Fixes Non-Nitro Banner in DMs */
+.panelBanner_c3e427 {
+  border-radius: 0px !important;
+}
+
+/* No, I don't want to make a thread from a chain of more than 2 replies */
+[class*="threadSuggestionBar_"] {
+  display: none;
+}
+
+/* Removes the Dashes in Channel Names */
+@font-face {
+  font-family: "dashless";
+  size-adjust: 100%;
+  /*adjust this to change word spacing*/
+  src: url("https://vendicated.github.io/random-files/Dashless.woff2") format("woff2");
+  unicode-range: U+002D;
+}
+
+[data-list-item-id^=channels___],
+/* channel list */
+[class^=titleWrapper]>h1,
+/* top bar with topic */
+[class^=resultChannel],
+/* channel name in search */
+.channelWithIcon,
+/* channel mentions in chat */
+[class^=placeholder][class*=slateTextArea],
+/* chat input placeholder text */
+[class^=auditLog_] [class^=overflowEllipsis_] strong,
+/* audit log */
+.vc-permviewer-perms-title
+
+/* permissionsviewer */
+  {
+  font-family: "dashless", var(--font-primary);
+}
+
+/* Mention Color */
+:root[class*=theme] {
+  --mention-background: #5f5a6444;
+}
+
+/* Replaces the Yellow Mention Color*/
+.theme-dark,
+.theme-light {
+  --background-mentioned: #52535b31;
+  --background-mentioned-hover: #52535b18;
+}
+
+/* Changes the sidebar color of Mentions */
+.mentioned_d5deea:before {
+  background-color: #4e4e4e;
+}
+
+/* Changes the Border Radius of Mentions */
+.mentioned_d5deea {
+  border-radius: 10px;
+}
+
+/* Removes the TOP and BOTTOM Gradient in VC */
+.gradientTop_dd069c,
+.gradientBottom_dd069c {
+  display: none
+}
+
+/* Changes Channel Names */
+.overflow_c74e70.name_d8bfb3 {
+  color: Empty for now;
+}
+
+/* Changes the colors of sent messages */
+.cozy_f9f2ca .messageContent_f9f2ca {
+  color: Empty for now;
+}
+
+/* Changes the color of names in the DM list/ Channel Group Names */
+.headerText_c47fa9  {
+color: var(--channels-default)
+}
+
+
+/* Removes the white line in Channels Tab */
+.theme-dark .children_fc4f04:after {
+background: none;
+}
+
+/* Adds color to the guild seperator */
+.guildSeparator_d0c57e {
+  border: 1px;
+  border-radius: 20px;
+  border-color: #52535b;
+  border-style: solid;
+}
+
+/* Adds color to the account profile card in settings */
+.accountProfileCard_b69b77 {
+  border: 2px;
+  border-radius: 20px;
+  border-color: #52535b;
+  border-style: solid;
+}
+
+/* Removes Call Buttons in DMs */ 
+[aria-label="Start Voice Call"], [aria-label="Start Video Call"]
+{
+    display: none !important;
+}
+
+/* Timestamps */
+@font-face {
+  font-family: "Blank Dot";
+  src: url("https://raw.githubusercontent.com/adobe-fonts/adobe-blank/master/AdobeBlank.ttf.woff");
+  unicode-range: U+2022;
+}
+
+/* Removes Emoji name bar */
+.inspector_c3120f  {
+  display: none
+}
+
+/* removes the add role button */
+.addButton_e4010c {
+  display: none
+}
+
+/* Removes the Banner in Profiles Tab */
+.container_da1432 {
+  display: none;
+}
+
+/* Custom Emoji Button */
+.sprite_d91a75.spriteColored_d91a75 {
+    background-image: url(https://discord.com/assets/c7193e6e47d29b34d07e.svg);
+    background-size: 24px;
+    filter: grayscale(100%);
+    left: -3px;
+    top: -1.4px;
+
+}
+
+.sprite_d91a75.spriteGreyscale_d91a75 {
+    mask-image: url(https://discord.com/assets/c7193e6e47d29b34d07e.svg);
+    mask-size: 24px;
+    filter: grayscale(100%);
+    left: -3px;
+    top: -1.4px;
+}
+
+/* Vencord toolbox Logo */
+.vc-toolbox-btn svg path {
+  display: none;
+}
+
+.vc-toolbox-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn.discordapp.com/emojis/1092089799109775453.webp?size=96&quality=lossless");
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  z-index: -1;
+  filter: grayscale(100%);
+}
+
+:is(.vc-toolbox-btn:hover, .vc-toolbox-btn[class*="selected"]) svg path {
+  display: none;
+}
+
+:is(.vc-toolbox-btn:hover, .vc-toolbox-btn[class*="selected"])::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn.discordapp.com/emojis/1092089799109775453.webp?size=96&quality=lossless");
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  z-index: -1;
+  filter: grayscale(100%);
+}
+
+/* Removes New Member Icon */
+[class*=newMemberBadge i]{
+  display: none;
+}
+
+/* Hide Future signups */
+[data-list-id="guildsnav"]>div>div>div:has(div[style*="background: url(\"https://cdn.discordapp.com/assets/signups"]) {display:none}
+
+.searchOption_b0286e::after,
+.option_b0286e::after {
+  display: none; 
+}
+
+/* Link Colors */
+
+.anchor_af404b {
+   color: rgb(177, 177, 177) !important;
+   background-color: transparent
+}
+
+.actionsUserPopoutV2_dafd61 {
+  justify-content: center
+}
+
+/* Centers the Status in User Panel */
+.nameTag_b2ca13 .hoverRoll_e07331  {
+  display: none;
+}
+
+.largeImage_cd82a7 
+{border-radius:4px !important;
+} 
+
+.customStatus_cb55fc {
+  justify-content: center !important;
+}
+
+.searchBar_e0840f,
+.searchBar_a46bef   {
+  background-color: var(--background-tertiary) !important;
+}
+
+.select_f6639d {
+background-color: var(--background-primary) !important;
+border: 0px;
+}
+
+/* Hides the Info Cards at the top of the Vencord Plugin/Theme tabs */
+.vc-settings-card,
+.vc-plugins-info-card {
+  display: none; 
+}
+
+.select_f6639d,
+.lookFilled_f6639d {
+background-color: var(--background-tertiary) !important;
+}
+
+.containerDefault_f6f816:hover + .container_e1e976 {
+  max-height: 100%; /* Make the threads Slide down */
+  transition: max-height 4s ease; }
+
+.container_e1e976 {
+  max-height: 0; /* Initially hide the threads by setting their max-height to 0 */
+  overflow: hidden; 
+  transition: max-height 4s ease; }
+
+
+  /* Remove VC Icons */
+[class*=iconGroup]:has([class*=hangStatusIcon], svg>path:not([d*='m2.7 22.7 20-20a1'], [d*='M22.7 2.7a1 1']), [class*=gameIcon]) {
+  display: none;
+}
+[class*=layerContainer] [class*=popout]:has([class*=text-xs-medium], [class*=options]){
+  display: none;
+}
+
+.vc-std-wrapper > div {
+  color: transparent !important;
+}
+
+.vc-std-wrapper > div > span {
+  color: rgb(255, 123, 0);
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-left: -px;
+}
+
+/* Removes Clan Tags*/
+[class*=clanTagChiplet__], [class*=clanTag_] {display: none;}
+
+  /* User Area Icon Recolor */
+.panels_a4d4d9 .lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] {
+  fill: white;
+}
+.lottieIcon_f73ef7 > svg > g > g > g:nth-child(1) > g > g:nth-child(2) > g:nth-child(2) > path {
+  stroke: white;
+}
+
+[class^="votePercentageBar_"] {
+    background-color: rgb(82, 83, 91);
+}
+
+/* Removes "Members Since" */ 
+.userPopoutOverlayBackground_c69a7b .section_d7a21f:has(.memberSinceWrapper_b06bc5) {
+  display: none;
+}
+
+/* Fixes Bolded Bot Text */
+[class*=botText] {
+    font-weight: 500;
+}
+
+/* Centers the Nametag */
+.nameTag_b2ca13 {
+  text-align: center;
+}
+
+
+/* New VC Indicator */
+.container_cfbfb9 {
+border-radius: 10px !important;
+}
+.container_be6a5c {
+  border-radius: 20px !important;
+}
+.gradientContainerDark_e286cd,
+.image_cfbfb9 {
+border-radius: 30px !important;
+}
+.header_be6a5c {
+  justify-content: center !important; 
+}
+
+/* Fixes Discord's Shitty Profile Text Color */
+.defaultColor_a595eb,
+.customStatusText_cb55fc {
+  color: rgba(255, 255, 255, 0.842) !important;
+}
+
+.vc-uvs-header {
+  text-align: center; 
+}
+
+/* Removes the bold on the 'Active Now' header */ 
+.header_bf550a {
+  font-weight: 400 !important;
+}
+
+/* Removes the bold on Names */
+.nickname_c32acf  {
+  font-weight: 300 !important;
+}
+
+.matchingPostsRow_a6d69a {
+  border-radius: 10px !important;
+  margin-top:10px !important;
+}
+
+/* Quest Box */
+.container_ac01d6 {
+  border-radius: 10px !important;
+  margin-top: 10px !important;
+}
+
+[class="defaultColor_a595eb text-sm/normal_dc00ef"] {
+  text-align: center !important;
+}
+
+.inner_dc0b43 {
+  display: none;
+}
+
+.itemCard_f02fcf {
+  background-color: var(--background-secondary);
+}
+
+/* Recolors Non-Nitro Profiles */
+.biteSizeInnerThemed_c69a7b,
+.userProfileModalInner_c69a7b  {
+background-color: var(--background-tertiary)
+}
+.fullSizeOverlayBackground_c69a7b  {
+  background-color: rgba(0, 0, 0, 0.452);
+}
+
+.root_c83b44 {
+margin: 8px 12px;
+justify-content: center;
+}
+
+.statusBubbleShape_d0a252,
+.statusBubbleOuter_d0a252  {
+  display: none;
+}
+
+.container_ecc1b2 {
+  align-items: center;
+}
+
+.circleIcon_db6521 {
+  color: var(--brand-experiment) !important;
+}
+
+.selected_db6521 {
+  background-color: rgb(41, 41, 41) !important; 
+}
+
+.wrapper_f90abb:hover .childWrapper_f90abb, .wrapper_f90abb.selected_f90abb .childWrapper_f90ab  {
+  background-color: rgb(41, 41, 41) !important; 
+}
+
+.wrapper_f90abb:hover .childWrapper_f90abb, .wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
+    color: var(--white);
+    background-color: rgb(41, 41, 41) !important;
+}
+
+.ring_dcc7a4 {
+  color: var(--brand-experiment) !important;;
+}
+
+
+.button_ef319f {
+  border-radius: 10px;
+}
+
+[aria-label="Show User Profile"] {
+  display: none;
+}
+
+.searchHeader_b7c924 {
+  border-radius: 0px;
+}
+
+
+.tabBar_c2739c .item_c2739c:nth-last-child(2) {
+  display: none;
+}
+
+.animatedContainer_fd6364 {
+  border-radius: 10px !important;
+}
+
+.footer_b07019 .button_f9d37d  {
+  display: none;
+}
+
+.nicknameIcons_c32acf {
+  display: none;
+}
+
+.multipleButtons_fcef98 {
+  display: none;
+}
+
+.container_eba0ba {
+  display: none;
+}
+
+.descriptionClamp_fc5c48 .blockquoteContainer_f8f345 {
+  justify-content: center !important;
+}
+
+[class="defaultColor_a595eb text-sm/normal_dc00ef"] .blockquoteContainer_f8f345 {
+  justify-content: center; 
+}
+
+.accountProfilePopoutWrapper_b2ca13 .container_e5a42d {
+  display: none;
+}
+
+.accountProfilePopoutWrapper_b2ca13 .container_c32acf {
+  display: none;
+}
+
+/* Removes "X" Button From Family Center */
+.closeIcon_c91bad, div.closeButton_c91bad  {
+  display: none !important; 
+}
+
+
+/* Centers Family Center Text */
+.sideNavContent_d576e9 {
+  margin: 350px !important;
+  margin-top: -30px !important;
+
+}
+
+.link_c91bad .numberBadge_df8943 {
+  display: none;
+}
+.item_c2739c .numberBadge_df8943 {
+  display: none;
+}
+
+.repliedTextPreview_f9f2ca {
+  border-radius: 0px !important;
+}
+
+.card_c21997 .defaultColor_a595eb  {
+  text-align: center;
+}
+
+
+/* remove super reactons */
+.effectsWrapper_e5651, .effect_bdca47 {
+    display: none !important;
+}
+
+.burstGlow_f61c73, .burstGlow_ec6b19 {
+    box-shadow: none !important;
+}
+.hideEmoji_ec6b19, .hideEmoji_f61c73 {
+    opacity: 1 !important;
+}
+.reaction_ec6b19.shakeReaction_ec6b19, .reaction_f61c73.shakeReaction_f61c73 {
+    animation: unset !important;
+}
