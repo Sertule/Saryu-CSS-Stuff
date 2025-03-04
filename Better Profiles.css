@@ -1,0 +1,210 @@
+.bot__63ed3,
+.pronouns__63ed3 {
+  margin-bottom: 8px;
+}
+
+.footer__3d3b0  .banner__68edb  {
+  margin: 10px auto auto;
+  width: calc(100% - 15px) !important;
+  height: calc(100px - 10px) !important;
+  min-height: 199px !important;
+  border-radius: 10px !important;
+}
+
+.panel_c0bea0  .banner__68edb {
+  margin: 8px auto auto;
+  width: calc(100% - 13px) !important;
+  height: calc(100px - 16px) !important;
+  min-height: 106px !important;
+  border-radius: 10px !important;
+}
+
+.backdrop__5be3e {
+margin-bottom: -15px;
+}
+
+ .bot__63ed3   {
+  background: var(--profile-body-background-color);
+  padding: 10px;
+  margin: 5 0px;
+  border-radius: 10px;
+}
+
+.descriptionClamp_f5f93a:not(:has(.buttonsContainer_b709ea)) {
+  background: var(--profile-body-background-color);
+  padding: 10px;
+  margin: 0 0px;
+  border-radius: 10px;
+}
+
+.activity__5be3e  {
+  text-transform: none;
+  color: var(--text-normal);
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 10px;
+  padding: 4px 6px;
+  margin: 4px 2 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  background:var(--profile-body-background-color);
+  background-size: 200% 200%;
+}
+
+
+
+.panel_c0bea0 .markup__75297  {
+  background: var(--profile-body-background-color);
+  padding: 10px;
+  margin: 5 0px;
+  border-radius: 10px;
+}
+
+
+.divider_ae36e5{
+  display: none !important;
+}
+
+/* Limit height of user popouts */
+.panel_c0bea0 {
+  border-radius: 15px !important;
+}
+
+.body__5be3e,
+.mutuals__530ce {
+  padding-bottom: 5px;
+}
+
+.mutuals__530ce {
+  display: none;
+}
+
+
+[aria-label="Pronouns"],
+.userTag_c2acf {
+  text-transform: none;
+  color: var(--text-normal);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 4px 6px;
+  margin: 4px 0 0 0;
+  border-radius: 10px;
+  max-width: 90%;
+  overflow: hidden;
+  background: linear-gradient(
+    45deg,
+    var(--profile-gradient-primary-color),
+    var(--profile-gradient-secondary-color)
+  );
+  background-size: 200% 200%;
+}
+
+.biteSize__63ed3,
+.clanTagContainer__63ed3 {
+  display: none;
+}
+
+[class="text-sm/normal_dc00ef"] {
+  text-align: center;
+}
+
+.body__5be3e:has(.vc-user-connection) :not(.bot__63ed3, .descriptionClamp_f5f93a, .activityBiteSizePopout_c1d9fd, .badgesContainerGameProfile__635ed, .headerText__39ec2) {
+justify-content: center !important;   
+}
+
+
+
+[style="gap: 4px; flex-wrap: wrap; display: flex;"]  {
+  background: var(--profile-body-background-color) !important;
+  padding: 4px 6px;
+  margin: 4px 0 0 0;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+.pronounsText__63ed3 pronounsTooltip__63ed3 {
+padding: 4px 5px;
+margin: 1px;
+}
+
+.badge__8061a {
+  min-height: fit-content;
+  margin-right: 10px;
+}
+
+[aria-label="User Badges"] {
+  margin: auto;
+}
+
+/* Makes Many Profile Things Centered */
+.pronouns__63ed3,
+.biteSize__63ed3,
+.badge__8061a,
+.expandButton_fccfdf pill_fccfdf,
+.fullSize__63ed3,
+.usernameRow__63ed3,
+.discordIcon_c4eb81,
+.guildContainer__14de9,
+.fullSize__63ed3 {
+text-align: center !important;
+justify-content: center !important;
+}
+.connections_fcb628  .section_bf424d {
+  text-align: center; 
+}
+
+
+/*  Extends Bios */
+.descriptionClamp_f5f93a:not(.newBadgeWrapper_faa96b .descriptionClamp_f5f93a) {
+    -webkit-line-clamp: unset;
+    max-height: 500px;
+    padding: 10px;
+    margin: 0 0px;
+}
+.viewFullBioColor_f5f93a{display: none;}
+
+[aria-label="Pronouns"] {
+  margin: auto !important;
+  margin: 0px !important; 
+}
+
+.biteSize__63ed3,
+.clanTagContainer__63ed3 {
+  display: none !important;
+}
+
+.pronouns__63ed3 {
+ margin: 4px 0 0 0;
+}
+
+/* Removes Edit Profile Button */ 
+[aria-label="Edit Profile"] {
+  display: none;
+}
+
+/* Fixes Weird Profile Padding */
+.footer__49fc1 {
+  border-radius: 15px !important;
+}
+.panel_da5890, .focusLock__49fc1  {
+  border-radius: 15px !important;
+}
+.fullSizeOuter_c69a7b {
+  border-radius: 15px !important;
+}
+.fullSizeBanner_c3e427, .fullSizeBannerPremium_c3e427  {
+  border-radius: 15px !important;
+}
+
+ .userProfileInner_c69a7b  {
+  border-radius: 15px !important;
+ }
+
+ .biteSizeOuter_c69a7b .inner_a99829 {
+  display: none;
+}
+
+.addCustomStatusButtonBubble_af9888, .statusBubbleOuter_af9888    {
+display: none;
+}

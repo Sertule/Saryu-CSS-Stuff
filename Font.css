@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux&display=swap" rel="stylesheet');
+
+:root:lang(en) {
+    --font-primary: "Afacad Flux";
+    --font-display: "Afacad Flux";
+    --font-headline: "Afacad Flux";
+    --font-code: "Afacad Flux"; /* you should use a monospace font for this */
+}

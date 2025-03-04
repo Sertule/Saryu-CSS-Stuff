@@ -1,0 +1,205 @@
+[class="main-topBar-background"], [class="main-topBar-container main-topBar-withBackgroundBlur"], [aria-label="Top bar and user menu"] {
+    background-color: var(--background base) !important;
+}
+
+.list20827 {
+    justify-content: center;
+}
+
+.headerButtons24502 {
+    display: none;
+}
+
+.repliedTextPreview_c19a55 {
+  border-radius: 0px !important;
+}
+
+.userProfileOuterThemed_c69a7b .fullSizeOverlayBackground_c69a7b  {
+  border-color: black !important;
+}
+.userProfileOuterThemed_c69a7b .fullSizeOverlayBackground_c69a7b .tabBar_d1d9f3  {
+ border-color: black !important;
+}
+
+/* Centers Embeded Images */
+.gridContainer623de .embedImage623de  {
+  margin: auto;
+  margin-top: 20px;
+  }
+
+
+.button_e6e74f   {
+background-color: #1414147e;
+border: 1px solid transparent;
+transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.input-2g-os5:hover,
+.button_e6e74f:hover {
+border-color: #2a2a2e;
+}
+.input-2g-os5,
+.button_e6e74f   {
+border-radius: 15px !important;
+}
+.channelAppLauncher_e6e74f {
+  align-content: unset;
+}
+
+.buttonsInner5126c  {
+  border: 1px solid transparent;
+  border-color: #2a2a2e;
+}
+
+
+.gridContainer623de .imageWrapper_af017a   {
+  border-radius: 10px !important;
+}
+
+
+.channelTextArea_f75fb0, .scrollableContainer74017   {
+    border-radius: 25px !important;
+}
+
+.input-2g-os5,
+.scrollableContainer74017  {
+  background-color: #504e500c;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  border: 1px solid transparent;
+  outline: none;
+}
+.input-2g-os5:hover,
+.scrollableContainer74017:hover {
+  border-color: #2a2a2e;
+}
+.input-2g-os5:focus-within, 
+.scrollableContainer74017:focus-within {
+  border-color: #2a2a2e;
+}
+
+
+.collapseButton_fccfdf {
+  display: none;
+}
+
+ .biteSizeOverlayBackground_c69a7b   {
+  background: var(--profile-body-background-color);
+  padding: 10px;
+  margin: 5 0px;
+  border-radius: 10px;
+}
+
+.root_fccfdf .button_fb7f94 {
+  display: none;
+}
+
+.accountProfilePopoutWrapper37e49 .menu_c1e9c4  {
+  border-color: transparent !important;
+}
+.accountProfilePopoutWrapper37e49 .biteSizeOverlayBackground_c69a7b  {
+  border: 1px solid transparent;
+}
+
+
+  .scroller_fcb628 .section_bf424d  {
+  background: var(--profile-body-background-color);
+  padding: 10px;
+  margin: 5 0px;
+  border-radius: 10px;
+}
+
+
+.inspectedIndicator_c6367b, assetWrapper31fc2, .pngImage31fc2  {
+  border-radius:  15px !important; 
+}
+
+.emojiSection_d5cd2d .overflow82b15 {
+  text-align: center; 
+}
+
+
+
+.embedCard44c9a, [class="shiki-root"] {
+  border: 1px solid transparent;
+  border-color: #2a2a2e;
+}
+
+.container_faa96b, .container9a337    {
+  border: 2px solid transparent;
+  border-color: #37373b;
+}
+
+
+
+.messageContent_c19a55 .channelMention {
+  padding-right: 5px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+
+}
+
+.biteSizeOuter_c69a7b .headings_bf424d .defaultColor5345c {
+  text-align: center;
+}
+
+.container_eff079 {
+  display: none;
+}
+
+
+[class^=tooltip] /*Allow the server tooltip to fit the entire server name in one line / {
+    max-width: unset !important; / allow it to be larger */
+
+.outer_c0bea0:not(.custom-theme-background.custom-profile-theme) .inner_c0bea0 {
+  background-color: rgb(12, 12, 12) !important;
+}
+
+.outer_c0bea0:not(.custom-theme-background.custom-profile-theme) .fullSize_c0bea0 {
+  background-color: rgb(12, 12, 12) !important;
+}
+
+.clickable4a25c {
+  display: none;
+}
+
+.altText0f481 {
+  display: none;
+}
+
+.container_ab8609 {
+  display:none;
+}
+
+.referenceContainer_ab8609 {
+display: none;
+}
+
+.descriptionClamp_f5f93a  {
+text-align: center !important;
+justify-content: center !important;
+}
+
+
+[class^="searchResultsWrap"] [class^=container]:has([class^=pageControlContainer]){
+  position: sticky;
+  bottom: 0px;
+  z-index: 999;
+  background: var(--bg-overlay-1, var(--background-secondary));
+}
+
+.clanTagContainer__63ed3 {
+  display: none;
+}
+
+
+
+/* Server discovery footer */
+.footer__214dc {
+  background: none;
+}
+/* Removing elements */
+/* Bottom gradient (server discovery) */
+.gradient_f8ec41 {
+  display: none;
+} 
+.footer__214dc { display: none; }
+.unreadMentionsFixedFooter_ef3116 { bottom: 0; }
