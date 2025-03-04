@@ -1,0 +1,118 @@
+/**
+ * @name Text Center
+ * @author Saruyu
+ * @description Centers a lot of text.
+*/
+
+/* Profile In DM */
+.section_d7a21f.container_c9ccf6,
+.customStatus_cb55fc {
+    justify-content: center;
+    text-align: center;
+}
+
+/* USER PROFILE -> LISTS */
+.listRow__9d78f {
+  border-radius: var(--card-radius);
+}
+.listRow__9d78f:hover {
+  background-color: var(--card-color);
+}
+
+.defaultColor__4bd52, 
+.lineClamp2Plus__4bd52, 
+.text-sm-normal__95a78  {
+ justify-content: center;
+}
+
+.lineClamp2Plus__4bd52,
+.container_afed89,
+.userInfoText_a24910,
+.body__07791 {
+text-align: center;
+}
+
+.body_c4a579 {
+ justify-content: center;
+ text-align: center;
+}
+
+[class*="roles_"] {
+  justify-content: center;
+}
+
+:is(.section_d7a21f, .userInfoSection_a24910) .eyebrow_cf4812 {
+  text-transform: none;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
+
+.text-sm-normal__95a78,
+.text-md-semibold__8664f,
+.heading-lg-semibold__58a54 {
+text-align: center;
+}
+
+.text-md-normal__6e567 {
+text-align: center;
+}
+
+.scrollerSeparator_d2b491 {
+  box-shadow: none;
+}
+
+.section_d7a21f:has(.roles_fa2f72:empty), /* no roles */
+[class*=userPanelInner_]::before,
+.aboutMeGuildIcon_b05b69 /* Profile guild icon */ {
+  display: none !important;
+}
+
+.lastSection_d7a21f {
+  display: none !important;
+}
+
+.vc-addon-title,
+.vc-addon-author {
+text-align: center;
+}
+
+/* Active Now Header */
+.header__7d20c {
+  text-align: center; }
+
+/* Reply to bar */
+.replyBar__841c8 {
+  text-align: center;
+}
+
+/* Centers Embed Author Names Etc */
+.anchor_edefb8 anchorUnderlineOnHover_edefb8,
+.embedAuthorNameLink__623de,
+.embedLink__623de,
+.embedAuthorName__623de {
+  justify-content: center;
+  text-align: center;
+}
+.gridContainer__623de .embedMargin__623de {
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+/* Profile, Vencord Themes Bar */
+.vc-settings-tab-bar,
+.top_b3f026 {
+  justify-content: center !important;
+}
+
+/* Centers Thread Authors */
+.subtext__6764b {
+  justify-content: center !important;
+}
+
+/* Centers Forum Search Bar */
+.title_d9be46 {
+  text-align: center !important;
+}
