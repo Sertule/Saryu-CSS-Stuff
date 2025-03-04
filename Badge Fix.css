@@ -1,0 +1,45 @@
+/* Fixes Badges  Cut Off */
+.body__5be3e {
+  overflow: unset !important; 
+  padding-right: 5px !important; 
+}
+
+/* Fixes Badge Location (Nitro)*/
+.outer_c0bea0  .container__8061a {
+  position: absolute;
+  top: -20px;
+  right: 17px;
+  margin: -10px;
+  padding: 1px;
+}
+
+.dotSpacer__63ed3,.statusBubbleOuter_af9888:before, 
+.statusBubbleOuter_af9888:after,div.invisibleContainer_af9888.biteSize_ab8609{
+  display: none;
+}
+
+/* Nitro*/
+.outer_c0bea0  .body__5be3e {
+    padding: 5px 10px 10px;
+}
+
+/* Fixes Badge Location */
+
+/* Fixes Non-Nitro Badges */
+.inner_c0bea0    {
+  gap: 10px !important;
+}
+
+/* Fixes Full Size Modal */
+.fullSizeOuter_c69a7b   .container__8061a { 
+  position: absolute;
+  top: var(--custom-user-banner-height-bite-size);
+  right: -110px;
+  left: px;
+  margin: 130px;
+  padding: 3px;
+}
+
+.headerInner__24502 {
+    padding: 5px 0px 0px !important;
+}

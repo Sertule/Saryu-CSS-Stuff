@@ -1,0 +1,13 @@
+/* Remove stupid 'suggested' section */
+li.containerDefault__29444:has(.dismissWrapper__29444),
+li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d,
+li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + li.containerDefault_c69b6d,
+li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + li.containerDefault_c69b6d + li.containerDefault_c69b6d,
+li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + li.containerDefault_c69b6d + li.containerDefault_c69b6d + li.containerDefault_c69b6d,
+li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + div.sectionDivider__629e4,
+li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + li.containerDefault_c69b6d + div.sectionDivider__629e4,
+li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + li.containerDefault_c69b6d + li.containerDefault_c69b6d + div.sectionDivider__629e4,
+li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + li.containerDefault_c69b6d + li.containerDefault_c69b6d + li.containerDefault_c69b6d + div.sectionDivider__629e4 {
+  display: none;
+}
+

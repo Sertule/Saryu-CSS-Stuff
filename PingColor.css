@@ -1,0 +1,9 @@
+/**
+ * @name Ping Recolor
+ * @author Blade0
+ * @description Makes pings the same color as activity icons.
+*/
+
+.numberBadge__2b1f5  {
+    background-color: var(--background-accent) !important;
+}
