@@ -809,45 +809,6 @@ background: none;
     top: -1.4px;
 }
 
-/* Vencord toolbox Logo */
-.vc-toolbox-btn svg path {
-  display: none;
-}
-
-.vc-toolbox-btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("https://cdn.discordapp.com/emojis/1092089799109775453.webp?size=96&quality=lossless");
-  background-size: cover;
-  background-position: center;
-  opacity: 1;
-  z-index: -1;
-  filter: grayscale(100%);
-}
-
-:is(.vc-toolbox-btn:hover, .vc-toolbox-btn[class*="selected"]) svg path {
-  display: none;
-}
-
-:is(.vc-toolbox-btn:hover, .vc-toolbox-btn[class*="selected"])::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("https://cdn.discordapp.com/emojis/1092089799109775453.webp?size=96&quality=lossless");
-  background-size: cover;
-  background-position: center;
-  opacity: 1;
-  z-index: -1;
-  filter: grayscale(100%);
-}
-
 /* Removes New Member Icon */
 [class*=newMemberBadge i]{
   display: none;
