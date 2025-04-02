@@ -14,7 +14,7 @@ body {
     --font: 'Afacad Flux';
 
     /* sizes */
-    --gap: 10px; /* spacing between panels */
+    --gap: 8px; /* spacing between panels */
     --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
 }
 
@@ -57,7 +57,7 @@ body {
             'guildsList notice notice'
             'guildsList channelsList page'
             'userPanel userPanel page';
-        gap: -5px var(--gap);
+        gap: 0px var(--gap);
     }
 
     .panels_c48ade /* user panel */ {
@@ -768,4 +768,3 @@ body {
         background-color: var(--online) !important;
     }
 }
-
