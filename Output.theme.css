@@ -6,10 +6,6 @@
     justify-content: center;
 }
 
-.headerButtons24502 {
-    display: none;
-}
-
 .repliedTextPreview_c19a55 {
   border-radius: 0px !important;
 }
@@ -77,7 +73,7 @@ border-radius: 15px !important;
 }
 
 
-.collapseButton_fccfdf {
+.closeIcon__972a0 {
   display: none;
 }
 
@@ -107,6 +103,14 @@ border-radius: 15px !important;
   border-radius: 10px;
 }
 
+
+.outer_c0bea0:not(.custom-theme-background.custom-profile-theme) .inner_c0bea0 {
+  background-color: #0c0c0c !important;
+}
+
+.outer_c0bea0:not(.custom-theme-background.custom-profile-theme) .fullSize_c0bea0 {
+  background-color: #0c0c0c !important;
+}
 
 .inspectedIndicator_c6367b, assetWrapper31fc2, .pngImage31fc2  {
   border-radius:  15px !important; 
@@ -148,14 +152,6 @@ border-radius: 15px !important;
 
 [class^=tooltip] /*Allow the server tooltip to fit the entire server name in one line / {
     max-width: unset !important; / allow it to be larger */
-
-.outer_c0bea0:not(.custom-theme-background.custom-profile-theme) .inner_c0bea0 {
-  background-color: rgb(12, 12, 12) !important;
-}
-
-.outer_c0bea0:not(.custom-theme-background.custom-profile-theme) .fullSize_c0bea0 {
-  background-color: rgb(12, 12, 12) !important;
-}
 
 .clickable4a25c {
   display: none;
@@ -203,3 +199,10 @@ justify-content: center !important;
 } 
 .footer__214dc { display: none; }
 .unreadMentionsFixedFooter_ef3116 { bottom: 0; }
+
+
+
+/* Hides Help Button and Server Title */
+.trailing_c38106 .anchor_edefb8, .title_c38106 {
+        display: none;
+    }
