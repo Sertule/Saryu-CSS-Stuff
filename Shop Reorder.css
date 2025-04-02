@@ -1,0 +1,51 @@
+:root {
+    --dm-columns: 4;
+}
+
+[class^=privateChannels_] [class^=content_] {
+    display: grid;
+    height: unset !important;
+    grid-template-columns: repeat(var(--dm-columns), 1fr);
+    
+
+    &> * {
+        overflow: hidden;
+        grid-column: 1 / calc(var(--dm-columns) + 1);
+    }
+    div:has(li) {
+        grid-column: auto;
+    }
+}
+
+[class^=channel_]:has(
+    [href="/channels/@me"],
+    [href="/library"],
+    [href="/shop"],
+    [href="/store"],
+    [href="/family-center"],
+    [href="/message-requests"]
+) {
+    grid-column: auto;
+
+    [class*="linkButton_"] {
+        padding-right: 0;
+    }
+ 
+    [class*="link_"] {
+        justify-content: center;
+        gap: 0;
+    }
+
+    [class*="avatar_"] {
+        margin: 0;
+        width: unset;
+    }
+
+    [class*="avatarWithText_"] {
+        flex-grow: unset;
+    }
+    
+    [class*="content_"] {
+        display: none;
+    }
+}s
