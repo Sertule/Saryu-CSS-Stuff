@@ -23,7 +23,7 @@
 margin-bottom: -15px;
 }
 
- .bot__63ed3   {
+ .container__63ed3   {
   background: var(--profile-body-background-color);
   padding: 10px;
   margin: 5 0px;
@@ -65,6 +65,8 @@ margin-bottom: -15px;
   display: none !important;
 }
 
+
+
 /* Limit height of user popouts */
 .panel_c0bea0 {
   border-radius: 15px !important;
@@ -99,19 +101,14 @@ margin-bottom: -15px;
   background-size: 200% 200%;
 }
 
-.biteSize__63ed3,
-.clanTagContainer__63ed3 {
-  display: none;
-}
-
 [class="text-sm/normal_dc00ef"] {
   text-align: center;
 }
 
+
 .body__5be3e:has(.vc-user-connection) :not(.bot__63ed3, .descriptionClamp_f5f93a, .activityBiteSizePopout_c1d9fd, .badgesContainerGameProfile__635ed, .headerText__39ec2) {
 justify-content: center !important;   
 }
-
 
 
 [style="gap: 4px; flex-wrap: wrap; display: flex;"]  {
@@ -122,20 +119,12 @@ justify-content: center !important;
   border-radius: 10px;
 }
 
-
 .pronounsText__63ed3 pronounsTooltip__63ed3 {
 padding: 4px 5px;
 margin: 1px;
 }
 
-.badge__8061a {
-  min-height: fit-content;
-  margin-right: 10px;
-}
 
-[aria-label="User Badges"] {
-  margin: auto;
-}
 
 /* Makes Many Profile Things Centered */
 .pronouns__63ed3,
@@ -154,7 +143,6 @@ justify-content: center !important;
   text-align: center; 
 }
 
-
 /*  Extends Bios */
 .descriptionClamp_f5f93a:not(.newBadgeWrapper_faa96b .descriptionClamp_f5f93a) {
     -webkit-line-clamp: unset;
@@ -167,11 +155,6 @@ justify-content: center !important;
 [aria-label="Pronouns"] {
   margin: auto !important;
   margin: 0px !important; 
-}
-
-.biteSize__63ed3,
-.clanTagContainer__63ed3 {
-  display: none !important;
 }
 
 .pronouns__63ed3 {
@@ -207,4 +190,13 @@ justify-content: center !important;
 
 .addCustomStatusButtonBubble_af9888, .statusBubbleOuter_af9888    {
 display: none;
+}
+
+
+.usernameRow__63ed3 {
+    justify-content: center;
+}
+
+.outer_c0bea0 .info_f4bc97  {
+    display: none;
 }
