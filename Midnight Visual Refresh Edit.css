@@ -366,12 +366,9 @@ body {
         border-radius: var(--radius-md);
     }
 
-    .outer_c0bea0 /* profile outer */, 
+     
     .contentWrapper__08434  /* gif panel */ {
         border-radius: var(--radius-lg);
-    }
-    .inner_c0bea0 /* profile inner */ {
-        border-radius: calc(var(--radius-lg) - 4px);
     }
 
     .root__24502 {
