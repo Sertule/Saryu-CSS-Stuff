@@ -48,6 +48,12 @@ body {
         backdrop-filter: var(--panel-backdrop-filter);
     }
 
+            /* chatbar options */
+    --flipped-chatbar: on; /* turn on to make the chatbar look nicer */
+    --chatbar-height: 47px; /* height of the chatbar (52px by default, 47px to align it with the user panel) */
+    --chatbar-padding: 8px; /* padding of the chatbar */
+    }
+
     .base_c48ade /* base grid */ {
         display: grid;
         grid-template-columns: [start] min-content [guildsEnd] min-content [channelsEnd] 1fr [end];
