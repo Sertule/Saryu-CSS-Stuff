@@ -1,0 +1,24 @@
+/* Removes Discord's Default Border Around Profile Pictures */
+:root {
+    --mainOther: linear-gradient(45deg,#4a0091 25%, #ce1414 100%);
+    
+    /*Yoinked from ServerColumns*/
+--guildroundness: 25% 25%;/* percent-serverroundness default: 50% (round = 50%, square = 0%)*/
+}
+
+/* Changes the Shape of Pings, Avatar Icons, Etc */
+.avatar_c19a55, .circleIconButton__5bc7e, .status_a423bd, .guildIcon_d5cd2d, .numberBadge__2b1f5, .avatar_c19a55, .guildIcon__0fa6d, .icon__11cf1, .folderIconWrapper__48112, .folder__48112, .expandedFolderIconWrapper__48112, .avatarHint_f89da9, .avatar__44b0c, .voiceAvatar_f910d0, .icon__6e9f8, .childWrapper__6e9f8, .childWrapperNoHoverBg__6e9f8, .border_f910d0, .wrapperSimple_cc5dd2, .avatar_c19a55, .clickable_c19a55 {
+    border-radius:var(--guildroundness) !important; }
+
+    pointerEvents__44b0c {
+    border-radius:9px 3px;
+    padding:0 -1px 0 -0.4px; 
+    border:1px solid #ad1d1d;
+}
+
+foreignObject {mask:none}
+
+.overlay__75742::after, .overlay_f9d668::after {
+  border-radius:var(--guildroundness) !important;
+}
+/* Removes Discord's Default Border Around Profile Pictures */
