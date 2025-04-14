@@ -103,15 +103,6 @@ border-radius: 15px !important;
   border-radius: 10px;
 }
 
-
-.outer_c0bea0:not(.custom-theme-background.custom-profile-theme) .inner_c0bea0 {
-  background-color: #0c0c0c !important;
-}
-
-.outer_c0bea0:not(.custom-theme-background.custom-profile-theme) .fullSize_c0bea0 {
-  background-color: #0c0c0c !important;
-}
-
 .inspectedIndicator_c6367b, assetWrapper31fc2, .pngImage31fc2  {
   border-radius:  15px !important; 
 }
