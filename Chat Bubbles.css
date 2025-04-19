@@ -54,7 +54,7 @@
   color: var(--text-link);
   font-weight: 600;
   padding: 0 4px;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 /* Message embeds (Vencord plugin) */
@@ -95,7 +95,7 @@
 .container_b7e1cb > :not(.reactions__23977, .searchResultsWrap_a9e706 *) {
   margin: 0;
   padding: 8px;
-  border-radius: 8px;
+  border-radius: 10px;
   background: color-mix(in srgb, var(--chat-bubble-default) 25%, transparent);
   max-width: max-content;
   box-sizing: border-box;
@@ -139,7 +139,7 @@
   .container_b7e1cb
   > :not(.reactions__23977, .searchResultsWrap_a9e706 *) {
   background: color-mix(in srgb, var(--chat-bubble-replying) 25%, transparent);
-  border-radius: 8px;
+  border-radius:10px;
   max-width: max-content;
   border: calc(1px * var(--enable-chat-bubble-border)) solid
     var(--chat-bubble-replying);
@@ -161,7 +161,7 @@
   .container_b7e1cb
   > :not(.reactions__23977, .searchResultsWrap_a9e706 *) {
   background: color-mix(in srgb, var(--chat-bubble-mentioned) 25%, transparent);
-  border-radius: 8px;
+  border-radius: 10px;
   border: calc(1px * var(--enable-chat-bubble-border)) solid
     var(--chat-bubble-mentioned);
 
@@ -182,7 +182,7 @@
   .container_b7e1cb
   > :not(.reactions__23977, .searchResultsWrap_a9e706 *) {
   background: color-mix(in srgb, var(--chat-bubble-automod) 25%, transparent);
-  border-radius: 8px;
+  border-radius: 10px;
   border: calc(1px * var(--enable-chat-bubble-border)) solid
     var(--chat-bubble-automod);
 
