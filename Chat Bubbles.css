@@ -11,7 +11,7 @@
 
 /* Customizable */
 :root {
-  --chat-bubble-default: rgba(128, 128, 128, 0.815);
+  --chat-bubble-default: blue;
   --chat-bubble-replying: cyan;
   --chat-bubble-mentioned: rgba(128, 128, 128, 0.815);
   --chat-bubble-automod: red;
