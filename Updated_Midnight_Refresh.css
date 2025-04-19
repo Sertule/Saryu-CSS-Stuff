@@ -371,14 +371,6 @@ body {
         border-width: 2px;
     }
 
-    /* roundness */
-     .embedFull__623de /* embeds */, 
-     .hljs /* code block */, 
-     .imageWrapper_af017a /* image */, 
-     .container__9271d /* thread link */ {
-        border-radius: 10px !important;
-    }
-
     
     .contentWrapper__08434  /* gif panel */ {
         border-radius: var(--radius-lg);
