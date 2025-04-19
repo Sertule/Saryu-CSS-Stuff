@@ -376,7 +376,7 @@ body {
      .hljs /* code block */, 
      .imageWrapper_af017a /* image */, 
      .container__9271d /* thread link */ {
-        border-radius: 10px;
+        border-radius: 10px !important;
     }
 
     
