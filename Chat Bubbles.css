@@ -11,9 +11,9 @@
 
 /* Customizable */
 :root {
-  --chat-bubble-default: grey;
+  --chat-bubble-default: rgba(128, 128, 128, 0.815);
   --chat-bubble-replying: cyan;
-  --chat-bubble-mentioned: grey;
+  --chat-bubble-mentioned: rgba(128, 128, 128, 0.815);
   --chat-bubble-automod: red;
   --enable-chat-bubble-border: 1;
 }
@@ -100,7 +100,7 @@
   max-width: max-content;
   box-sizing: border-box;
   border: calc(1px * var(--enable-chat-bubble-border)) solid
-    var(--chat-bubble-default);
+    rgb(71, 71, 71);
 
   &:hover {
     background: color-mix(in srgb, var(--chat-bubble-default) 50%, transparent);
@@ -142,7 +142,7 @@
   border-radius:10px;
   max-width: max-content;
   border: calc(1px * var(--enable-chat-bubble-border)) solid
-    var(--chat-bubble-replying);
+    rgb(71, 71, 71);
 
   &:hover {
     background: color-mix(
@@ -163,7 +163,7 @@
   background: color-mix(in srgb, var(--chat-bubble-mentioned) 25%, transparent);
   border-radius: 10px;
   border: calc(1px * var(--enable-chat-bubble-border)) solid
-    var(--chat-bubble-mentioned);
+    rgb(71, 71, 71);
 
   &:hover {
     background: color-mix(
