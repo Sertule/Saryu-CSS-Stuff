@@ -13,7 +13,7 @@
 :root {
   --chat-bubble-default: grey;
   --chat-bubble-replying: cyan;
-  --chat-bubble-mentioned: orange;
+  --chat-bubble-mentioned: grey;
   --chat-bubble-automod: red;
   --enable-chat-bubble-border: 1;
 }
