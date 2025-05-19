@@ -1,0 +1,49 @@
+/**
+ * @name Configurable Snippets
+ * @description Configurable snippet that allows you to remove or tone down many modern frills and instances of excessive padding present in Discord.
+ * @author abbie
+ * @version 1.0
+ * @source https://github.com/refact0r/midnight-discord/blob/master/themes/midnight.theme.css
+ * @authorId 508863359777505290
+ * @authorLink https://www.refact0r.dev
+*/
+
+@import url('https://raw.githubusercontent.com/abbie/discord-css/refs/heads/main/import.css');
+
+:root {
+    --\\--compact-title-bar: false;
+    --\\--compact-input-box: false;
+    --\\--compact-context-menu: false;
+    --\\--compact-user-area: false;
+    --\\--compact-channel-categories: true;
+    --\\--compact-server-list: true;
+
+    --\\--hide-nameplates: true;
+    --\\--hide-guild-tags: true;
+    --\\--hide-profile-effects: true;
+    --\\--hide-avatar-decorations: true;
+    --\\--hide-gradient-glow-usernames: false;
+    --\\--hide-server-boost-goal: true;
+    --\\--hide-server-activity: true;
+    --\\--hide-user-activity: false;
+    --\\--hide-context-menu-quick-reactions: false;
+    --\\--hide-hover-quick-reactions: false;
+    --\\--hide-image-edit-button: true;
+    --\\--hide-gif-button: false;
+    --\\--hide-sticker-button: false;
+    --\\--hide-emoji-button: false;
+    --\\--hide-apps-button: true;
+    --\\--hide-gift-button: true;
+    --\\--hide-help-button: false;
+    --\\--hide-shop-button: true;
+    --\\--hide-nitro-button: true;
+    --\\--hide-nitro-upsells: true;
+    --\\--hide-vencord-desktop-platform-indicator: true;
+    --\\--hide-cluttery-badges: false;
+    /* ^ hides quest, hypesquad, active dev, and discriminator badges */
+
+    --\\--darker-scrollbar: true;
+    --\\--darker-hovered-message: true;
+    --\\--prevent-sidebar-resizing: false;
+    --\\--fix-minor-icon-misalignments: false;
+}
