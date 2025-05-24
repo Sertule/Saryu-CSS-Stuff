@@ -16,7 +16,7 @@
     --\\--compact-context-menu: false;
     --\\--compact-user-area: false;
     --\\--compact-channel-categories: true;
-    --\\--compact-server-list: true;
+    --\\--compact-server-list: false;
 
     --\\--hide-nameplates: true;
     --\\--hide-guild-tags: true;
@@ -44,6 +44,6 @@
 
     --\\--darker-scrollbar: true;
     --\\--darker-hovered-message: true;
-    --\\--prevent-sidebar-resizing: false;
-    --\\--fix-minor-icon-misalignments: false;
+    --\\--prevent-sidebar-resizing: true;
+    --\\--fix-minor-icon-misalignments: true;
 }
