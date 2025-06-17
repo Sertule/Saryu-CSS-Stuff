@@ -186,11 +186,6 @@ background-color: var(--background-primary) !important;
 border: 0px;
 }
 
-.wrapper__3f413,
-.lookFilled__3f413 {
-background-color: var(--background-tertiary) !important;
-}
-
 .containerDefault_c69b6d:hover + .container__5b40b {
   max-height: 100%; /* Make the threads Slide down */
   transition: max-height 4s ease; }
