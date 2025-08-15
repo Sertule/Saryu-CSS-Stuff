@@ -34,8 +34,8 @@
     --\\--hide-emoji-button: false;
     --\\--hide-apps-button: true;
     --\\--hide-gift-button: true;
-    --\\--hide-help-button: false;
-    --\\--hide-shop-button: false;
+    --\\--hide-help-button: true;
+    --\\--hide-shop-button: true;
     --\\--hide-nitro-button: false;
     --\\--hide-nitro-upsells: true;
     --\\--hide-vencord-desktop-platform-indicator: true;
@@ -47,3 +47,4 @@
     --\\--prevent-sidebar-resizing: true;
     --\\--fix-minor-icon-misalignments: true;
 }
+
