@@ -190,10 +190,3 @@ justify-content: center !important;
 } 
 .footer__214dc { display: none; }
 .unreadMentionsFixedFooter_ef3116 { bottom: 0; }
-
-
-
-/* Hides Help Button and Server Title */
-.trailing_c38106 .anchor_edefb8, .title_c38106 {
-        display: none;
-    }
