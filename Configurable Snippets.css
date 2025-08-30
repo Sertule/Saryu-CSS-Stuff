@@ -18,7 +18,7 @@
     --\\--compact-channel-categories: true;
     --\\--compact-server-list: false;
 
-    --\\--hide-nameplates: true;
+    --\\--hide-nameplates: false;
     --\\--hide-guild-tags: true;
     --\\--hide-profile-effects: true;
     --\\--hide-avatar-decorations: true;
@@ -37,7 +37,7 @@
     --\\--hide-help-button: true;
     --\\--hide-shop-button: true;
     --\\--hide-nitro-button: false;
-    --\\--hide-nitro-upsells: true;
+    --\\--hide-nitro-upsells: false;
     --\\--hide-vencord-desktop-platform-indicator: true;
     --\\--hide-cluttery-badges: false;
     /* ^ hides quest, hypesquad, active dev, and discriminator badges */
@@ -47,4 +47,5 @@
     --\\--prevent-sidebar-resizing: true;
     --\\--fix-minor-icon-misalignments: true;
 }
+
 
