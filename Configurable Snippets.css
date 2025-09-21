@@ -28,7 +28,7 @@
     --\\--hide-user-activity: false;
     --\\--hide-context-menu-quick-reactions: false;
     --\\--hide-hover-quick-reactions: false;
-    --\\--hide-image-edit-button: true;
+    --\\--hide-image-edit-button: false;
     --\\--hide-gif-button: false;
     --\\--hide-sticker-button: false;
     --\\--hide-emoji-button: false;
@@ -42,10 +42,11 @@
     --\\--hide-cluttery-badges: false;
     /* ^ hides quest, hypesquad, active dev, and discriminator badges */
 
-    --\\--darker-scrollbar: true;
+    --\\--darker-scrollbar: false;
     --\\--darker-hovered-message: true;
     --\\--prevent-sidebar-resizing: true;
     --\\--fix-minor-icon-misalignments: true;
 }
+
 
 
