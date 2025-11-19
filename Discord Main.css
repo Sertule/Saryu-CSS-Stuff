@@ -575,7 +575,6 @@ img.emote {
 /* Fixes Jump to Present Bar Roundness */
 .jumpToPresentBar__0f481  {
   border-radius: 20px !important;
-  margin: -2px !important;
   opacity:100%;
 }
 form.form_f75fb0::before {
@@ -776,24 +775,6 @@ background: none;
 /* Removes the Banner in Profiles Tab */
 .container__8279f {
   display: none;
-}
-
-/* Custom Emoji Button */
-.sprite__04eed.spriteColored__04eed {
-    background-image: url(https://discord.com/assets/c7193e6e47d29b34d07e.svg);
-    background-size: 24px;
-    filter: grayscale(100%);
-    left: -3px;
-    top: -1.4px;
-
-}
-
-.sprite__04eed.spriteGreyscale__04eed {
-    mask-image: url(https://discord.com/assets/c7193e6e47d29b34d07e.svg);
-    mask-size: 24px;
-    filter: grayscale(100%);
-    left: -3px;
-    top: -1.4px;
 }
 
 /* Removes New Member Icon */
