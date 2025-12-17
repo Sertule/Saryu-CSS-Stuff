@@ -8,7 +8,7 @@
  * @authorLink https://www.refact0r.dev
 */
 
-@import url('https://raw.githubusercontent.com/abbie/discord-css/refs/heads/main/import.css');
+@import url('https://raw.githubusercontent.com/Sertule/Saryu-CSS-Stuff/refs/heads/main/Configurable%20Snippets%20Main');
 
 :root {
     --\\--compact-title-bar: false;
@@ -47,6 +47,7 @@
     --\\--prevent-sidebar-resizing: true;
     --\\--fix-minor-icon-misalignments: true;
 }
+
 
 
 
