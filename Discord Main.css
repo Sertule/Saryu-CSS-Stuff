@@ -215,9 +215,6 @@ border: 0px;
   margin-left: -px;
 }
 
-/* Removes Clan Tags*/
-[class*=clanTagChiplet__], [class*=clanTag_] {display: none;}
-
   /* User Area Icon Recolor */
 ._5e434347c823b592-panels ._5eb9b3cc7c2b1ce8-lottieIcon :not(defs *)[fill][fill-opacity] {
   fill: white;
@@ -239,7 +236,6 @@ border: 0px;
 ._37e49614b9f110a9-nameTag {
   text-align: center;
 }
-
 
 /* New VC Indicator */
 .container_cfbfb9 {
@@ -859,9 +855,6 @@ background-color: var(--background-tertiary) !important;
   font-weight: 500;
   margin-left: -px;
 }
-
-/* Removes Clan Tags*/
-[class*=clanTagChiplet__], [class*=clanTag_] {display: none;}
 
   /* User Area Icon Recolor */
 ._5e434347c823b592-panels ._5eb9b3cc7c2b1ce8-lottieIcon :not(defs *)[fill][fill-opacity] {
