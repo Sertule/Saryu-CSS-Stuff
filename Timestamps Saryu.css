@@ -11,7 +11,7 @@
   line-height: 1rem !important;
 }
 
-.contents_c19a55 [class^="botTagCozy_"] {
+.c19a557985eb7793-contents [class^="botTagCozy_"] {
   line-height: 1rem;
   box-shadow: 0 0 0 1px var(--brand-experiment-900);
   height: 16px;
@@ -28,7 +28,7 @@
   font-family: "Blank Dot", var(--font-primary);
 }
 
-.contents_c19a55 [class^="timestamp"]:not(:has(time)) {
+.c19a557985eb7793-contents [class^="timestamp"]:not(:has(time)) {
   background: var(--brand-experiment);
   padding: 0 4px 0 2px;
   box-shadow: 0 0 0 1px var(--brand-experiment-300);
@@ -39,4 +39,5 @@
   background: var(--brand-experiment-700);
   padding: 0 8px;
   box-shadow: 0 0 0 1px var(--brand-experiment);
+
 }
