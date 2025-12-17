@@ -1,14 +1,15 @@
 /* Remove stupid 'suggested' section */
-li.containerDefault__29444:has(.dismissWrapper__29444),
-li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d,
-li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + li.containerDefault_c69b6d,
-li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + li.containerDefault_c69b6d + li.containerDefault_c69b6d,
-li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + li.containerDefault_c69b6d + li.containerDefault_c69b6d + li.containerDefault_c69b6d,
-li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + div.sectionDivider__629e4,
-li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + li.containerDefault_c69b6d + div.sectionDivider__629e4,
-li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + li.containerDefault_c69b6d + li.containerDefault_c69b6d + div.sectionDivider__629e4,
-li.containerDefault__29444:has(.dismissWrapper__29444) + li.containerDefault_c69b6d + li.containerDefault_c69b6d + li.containerDefault_c69b6d + li.containerDefault_c69b6d + div.sectionDivider__629e4 {
+li._29444ba32c7fbeab-containerDefault:has(.dismissWrapper__29444),
+li._29444ba32c7fbeab-containerDefault:has(.dismissWrapper__29444) + li.c69b6db0641110f6-containerDefault,
+li._29444ba32c7fbeab-containerDefault:has(.dismissWrapper__29444) + li.c69b6db0641110f6-containerDefault + li.c69b6db0641110f6-containerDefault,
+li._29444ba32c7fbeab-containerDefault:has(.dismissWrapper__29444) + li.c69b6db0641110f6-containerDefault + li.c69b6db0641110f6-containerDefault + li.c69b6db0641110f6-containerDefault,
+li._29444ba32c7fbeab-containerDefault:has(.dismissWrapper__29444) + li.c69b6db0641110f6-containerDefault + li.c69b6db0641110f6-containerDefault + li.c69b6db0641110f6-containerDefault + li.c69b6db0641110f6-containerDefault,
+li._29444ba32c7fbeab-containerDefault:has(.dismissWrapper__29444) + li.c69b6db0641110f6-containerDefault + div._629e4c86564a4ee7-sectionDivider,
+li._29444ba32c7fbeab-containerDefault:has(.dismissWrapper__29444) + li.c69b6db0641110f6-containerDefault + li.c69b6db0641110f6-containerDefault + div._629e4c86564a4ee7-sectionDivider,
+li._29444ba32c7fbeab-containerDefault:has(.dismissWrapper__29444) + li.c69b6db0641110f6-containerDefault + li.c69b6db0641110f6-containerDefault + li.c69b6db0641110f6-containerDefault + div._629e4c86564a4ee7-sectionDivider,
+li._29444ba32c7fbeab-containerDefault:has(.dismissWrapper__29444) + li.c69b6db0641110f6-containerDefault + li.c69b6db0641110f6-containerDefault + li.c69b6db0641110f6-containerDefault + li.c69b6db0641110f6-containerDefault + div._629e4c86564a4ee7-sectionDivider {
   display: none;
 }
+
 
 
