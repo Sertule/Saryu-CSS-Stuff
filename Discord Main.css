@@ -517,17 +517,6 @@ button[aria-label="Send a gift"] {
   display: none;
 }
 
-/* Removes Avatar Decorations */
-._44b0c28be7879b7b-avatarDecoration,
-.c19a557985eb7793-avatarDecoration,
-.c19a557985eb7793-avatarDecoration {
-  display: none; 
-}
-.avatarDecorationHint_f89da9 {
-border-radius:var(--guildroundness) !important;
-}
-/* Removes Avatar Decorations */
-
 
 /* Emoji Auto-Fill Animation */
 ._13533e3c5791980f-base {
