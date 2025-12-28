@@ -21,7 +21,7 @@
     --\\--hide-nameplates: false;
     --\\--hide-guild-tags: true;
     --\\--hide-profile-effects: true;
-    --\\--hide-avatar-decorations: true;
+    --\\--hide-avatar-decorations: false;
     --\\--hide-gradient-glow-usernames: false;
     --\\--hide-server-boost-goal: true;
     --\\--hide-server-activity: true;
@@ -47,6 +47,7 @@
     --\\--prevent-sidebar-resizing: true;
     --\\--fix-minor-icon-misalignments: true;
 }
+
 
 
 
