@@ -1,5 +1,5 @@
 /* Add a colored border around the role */
-.dfa8b6b94cddb191-roleRemoveButton :is(._4f569b8941af22d1-roleCircle,.dfa8b6b94cddb191-roleFlowerStar/*linked roles*/):before {
+.roleRemoveButton_dfa8b6 :is(.roleCircle__4f569,.roleFlowerStar_dfa8b6/*linked roles*/):before {
 	position: absolute;
 	top: 0;
 	left: 0;
