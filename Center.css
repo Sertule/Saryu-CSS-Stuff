@@ -19,13 +19,13 @@
   background-color: var(--card-color);
 }
 
-._4bd5201c86a2042b-defaultColor, 
-._4bd5201c86a2042b-lineClamp2Plus, 
+.defaultColor__4bd52, 
+.lineClamp2Plus__4bd52, 
 .text-sm-normal__95a78  {
  justify-content: center;
 }
 
-._4bd5201c86a2042b-lineClamp2Plus,
+.lineClamp2Plus__4bd52,
 .container_afed89,
 .userInfoText_a24910,
 .body__07791 {
@@ -41,7 +41,7 @@ text-align: center;
   justify-content: center;
 }
 
-:is(.section_d7a21f, .userInfoSection_a24910) .cf48127484dbde85-eyebrow {
+:is(.section_d7a21f, .userInfoSection_a24910) .eyebrow_cf4812 {
   text-transform: none;
   font-size: 14px;
   display: block;
@@ -78,23 +78,23 @@ text-align: center;
 }
 
 /* Active Now Header */
-._7d20cf18f8a2784c-header {
+.header__7d20c {
   text-align: center; }
 
 /* Reply to bar */
-._841c8f861f7b2704-replyBar {
+.replyBar__841c8 {
   text-align: center;
 }
 
 /* Centers Embed Author Names Etc */
-.edefb8e22d63c542-anchor edefb8e22d63c542-anchorUnderlineOnHover,
-._623de82e76ad7f82-embedAuthorNameLink,
-._623de82e76ad7f82-embedLink,
-._623de82e76ad7f82-embedAuthorName {
+.anchor_edefb8 edefb8e22d63c542-anchorUnderlineOnHover,
+.embedAuthorNameLink__623de,
+.embedLink__623de,
+.embedAuthorName__623de {
   justify-content: center;
   text-align: center;
 }
-._623de82e76ad7f82-gridContainer ._623de82e76ad7f82-embedMargin {
+.gridContainer__623de .embedMargin__623de {
   text-align: center;
   justify-content: center;
 }
@@ -103,19 +103,20 @@ text-align: center;
 
 /* Profile, Vencord Themes Bar */
 .vc-settings-tab-bar,
-.aa8da23faa27393c-top {
+.top_aa8da2 {
   justify-content: center !important;
 }
 
 /* Centers Thread Authors */
-._6764bd76e0340219-subtext {
+.subtext__6764b {
   justify-content: center !important;
 }
 
 /* Centers Forum Search Bar */
-.d9be463a3c35b91e-title {
+.title_d9be46 {
   text-align: center !important;
 
 }
+
 
 
