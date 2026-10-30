@@ -293,9 +293,7 @@ body {
     margin: 0 var(--gap) var(--gap) 0;
     height: calc(100% - var(--gap));
 }
-.container__01ae2 /* forum/thread chat */ {
-    padding-left: calc((var(--gap) - var(--chat-resize-handle-width)));
-}
+
 
 .container_fb64c9 /* new thread panel */ {
     background: none;
